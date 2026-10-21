@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugin etiquetas 1.2.0\n"
+"Report-Msgid-Bugs-To: https://github.com/carlosguilhermeklein/glpi-etiquetas/issues\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Asset label 50x20 - 2 columns"
+msgstr "Etiqueta de patrimônio 50x20 - 2 colunas"
+
+msgid "Print labels"
+msgstr "Imprimir etiquetas"
+
+msgid "Asset labels"
+msgstr "Etiquetas de patrimônio"
+
+msgid "No label selected for printing."
+msgstr "Nenhuma etiqueta marcada para imprimir."
+
+msgid "No label template defined."
+msgstr "Nenhum modelo de etiqueta cadastrado."
+
+msgid "Create a template"
+msgstr "Criar um modelo"
+
+msgid "Manage templates"
+msgstr "Gerenciar modelos"
+
+msgid "No asset selected. Open an asset list, select the assets to print and use %s."
+msgstr "Nenhum ativo selecionado. Abra uma lista de ativos, marque os que quer imprimir e use %s."
+
+msgid "Check the texts before generating. The number comes from the %s field of the asset."
+msgstr "Confira os textos antes de gerar. O número vem do campo %s do ativo."
+
+msgid "Inventory number"
+msgstr "Número de inventário"
+
+msgid "As this template uses the number, assets without one stay blocked until it is filled in."
+msgstr "Como este modelo usa o número, ativos sem número ficam bloqueados até alguém preencher."
+
+msgid "Print"
+msgstr "Imprimir"
+
+msgid "Asset"
+msgstr "Ativo"
+
+msgid "Number"
+msgstr "Número"
+
+msgid "no number"
+msgstr "sem número"
+
+msgid "%1$d label(s) = %2$d page(s) (rows of the roll)."
+msgstr "%1$d etiqueta(s) = %2$d página(s) (linhas do rolo)."
+
+msgid "To print: in the PDF press Ctrl+P, choose the label printer, set the scale to actual size (100%) and the margins to none."
+msgstr "Para imprimir: no PDF, Ctrl+P → impressora de etiquetas → escala Tamanho real (100%) → margens Nenhuma."
+
+msgid "Generate PDF"
+msgstr "Gerar PDF"
+
+msgid "Template not found."
+msgstr "Modelo não encontrado."
+
+msgid "%s (copy)"
+msgstr "%s (cópia)"
+
+msgid "Template: %s"
+msgstr "Modelo: %s"
+
+msgid "New label template"
+msgstr "Novo modelo de etiqueta"
+
+msgid "All templates"
+msgstr "Todos os modelos"
+
+msgid "New template"
+msgstr "Novo modelo"
+
+msgid "A template defines the label size, how many labels fit in a row of the roll, the code, the logo and the text lines. When printing, the review page lets you choose the template."
+msgstr "O modelo define o tamanho da etiqueta, quantas saem por linha do rolo, o código, o logo e as linhas de texto. Na hora de imprimir, a tela de conferência deixa escolher o modelo."
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Label"
+msgstr "Etiqueta"
+
+msgid "Code"
+msgstr "Código"
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "Text lines"
+msgstr "Linhas de texto"
+
+msgid "Default"
+msgstr "Padrão"
+
+msgid "The selected assets will go to the label review page."
+msgstr "Os ativos marcados vão para a tela de conferência das etiquetas."
+
+msgid "Continue"
+msgstr "Continuar"
+
+msgid "Fixed text"
+msgstr "Texto fixo"
+
+msgid "Description (type + manufacturer + model)"
+msgstr "Descrição (tipo + fabricante + modelo)"
+
+msgid "User (or location)"
+msgstr "Usuário (ou localização)"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Manufacturer"
+msgstr "Fabricante"
+
+msgid "Model"
+msgstr "Modelo"
+
+msgid "Serial number"
+msgstr "Número de série"
+
+msgid "Location"
+msgstr "Localização"
+
+msgid "Group"
+msgstr "Grupo"
+
+msgid "Entity"
+msgstr "Entidade"
+
+msgid "Purchase date"
+msgstr "Data de compra"
+
+msgid "GLPI ID"
+msgstr "ID no GLPI"
+
+msgid "QR code"
+msgstr "QR code"
+
+msgid "Barcode (Code 128, at the bottom)"
+msgstr "Código de barras (Code 128, na parte de baixo)"
+
+msgid "None"
+msgstr "Nenhum"
+
+msgid "Link to the asset in GLPI"
+msgstr "Link do ativo no GLPI"
+
+msgid "No logo"
+msgstr "Sem logo"
+
+msgid "Left"
+msgstr "Esquerda"
+
+msgid "Right"
+msgstr "Direita"
+
+msgid "Spread over the height"
+msgstr "Distribuir na altura"
+
+msgid "Top"
+msgstr "Topo"
+
+msgid "Center"
+msgstr "Centro"
+
+msgid "203 dpi (8 dots/mm)"
+msgstr "203 dpi (8 pontos/mm)"
+
+msgid "300 dpi (12 dots/mm)"
+msgstr "300 dpi (12 pontos/mm)"
+
+msgid "600 dpi (24 dots/mm)"
+msgstr "600 dpi (24 pontos/mm)"
+
+msgid "Give the template a name."
+msgstr "Dê um nome ao modelo."
+
+msgid "This is the default template. Set another template as default before deleting this one."
+msgstr "Este é o modelo padrão. Marque outro modelo como padrão antes de excluir este."
+
+msgid "%1$s x %2$s mm, %3$d per row, page of %4$s mm"
+msgstr "%1$s x %2$s mm, %3$d por linha, página de %4$s mm"
+
+msgid "The logo must be a PNG, JPG, GIF or BMP image."
+msgstr "O logo precisa ser uma imagem PNG, JPG, GIF ou BMP."
+
+msgid "Could not save the logo."
+msgstr "Não foi possível salvar o logo."
+
+msgid "Identification"
+msgstr "Identificação"
+
+msgid "Template name"
+msgstr "Nome do modelo"
+
+msgid "Default template"
+msgstr "Modelo padrão"
+
+msgid "Use as default template"
+msgstr "Usar como modelo padrão"
+
+msgid "Size and position on the roll (mm)"
+msgstr "Tamanho e posição no rolo (mm)"
+
+msgid "Label width"
+msgstr "Largura da etiqueta"
+
+msgid "Label height"
+msgstr "Altura da etiqueta"
+
+msgid "Labels per row (columns)"
+msgstr "Etiquetas por linha (colunas)"
+
+msgid "Gap between columns"
+msgstr "Espaço entre as colunas"
+
+msgid "Left margin to the first label"
+msgstr "Margem esquerda até a 1ª etiqueta"
+
+msgid "Page width"
+msgstr "Largura da página"
+
+msgid "0 = automatic (%s mm)"
+msgstr "0 = automática (%s mm)"
+
+msgid "Vertical offset"
+msgstr "Deslocamento vertical"
+
+msgid "Positive moves the content down"
+msgstr "Positivo desce o conteúdo"
+
+msgid "Inner margin of the label"
+msgstr "Margem interna da etiqueta"
+
+msgid "Printer resolution"
+msgstr "Resolução da impressora"
+
+msgid "Content"
+msgstr "Conteúdo"
+
+msgid "QR code side"
+msgstr "Lado do QR code"
+
+msgid "Size"
+msgstr "Tamanho"
+
+msgid "QR code side length or barcode height"
+msgstr "Lado do QR ou altura das barras"
+
+msgid "Position"
+msgstr "Posição"
+
+msgid "Maximum size"
+msgstr "Tamanho máximo"
+
+msgid "Black threshold (1-254)"
+msgstr "Limiar de preto (1-254)"
+
+msgid "Higher = more areas become black"
+msgstr "Maior = mais áreas ficam pretas"
+
+msgid "Upload image (PNG, JPG, GIF, BMP)"
+msgstr "Enviar imagem (PNG, JPG, GIF, BMP)"
+
+msgid "How the logo will be printed (zoomed 3x):"
+msgstr "Como o logo sai na impressora (ampliado 3x):"
+
+msgid "Remove logo"
+msgstr "Remover logo"
+
+msgid "Vertical alignment"
+msgstr "Alinhamento vertical"
+
+msgid "Horizontal alignment"
+msgstr "Alinhamento horizontal"
+
+msgid "Field"
+msgstr "Campo"
+
+msgid "Text (fixed text only)"
+msgstr "Texto (só para texto fixo)"
+
+msgid "Font (pt)"
+msgstr "Fonte (pt)"
+
+msgid "Bold"
+msgstr "Negrito"
+
+msgid "Uppercase"
+msgstr "Maiúsculas"
+
+msgid "Lines"
+msgstr "Linhas"
+
+msgid "Add line"
+msgstr "Adicionar linha"
+
+msgid "Lines wider than the label are compressed; if the lines do not fit in the height, all fonts shrink in the same proportion."
+msgstr "Linhas que passam da largura são comprimidas; se a soma das alturas não couber, todas as fontes diminuem na mesma proporção."
+
+msgid "Add"
+msgstr "Adicionar"
+
+msgid "Delete this template?"
+msgstr "Excluir este modelo?"
+
+msgid "Save"
+msgstr "Salvar"
+
+msgid "Preview PDF"
+msgstr "Pré-visualizar PDF"
+
+msgid "Calibration PDF"
+msgstr "PDF de calibração"
+
+msgid "Duplicate"
+msgstr "Duplicar"
+
+msgid "Delete"
+msgstr "Excluir"
+
+msgid "The PDFs use the saved values: save before previewing."
+msgstr "Os PDFs usam o que está salvo: salve antes de pré-visualizar."
+
+msgid "No"
+msgstr "Não"
+
+msgid "Yes"
+msgstr "Sim"
+
+msgid "Move up"
+msgstr "Subir"
+
+msgid "Move down"
+msgstr "Descer"
+
+msgid "Remove"
+msgstr "Remover"
+
+msgid "Label template"
+msgid_plural "Label templates"
+msgstr[0] "Modelo de etiqueta"
+msgstr[1] "Modelos de etiqueta"

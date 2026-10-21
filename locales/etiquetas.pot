@@ -1,0 +1,465 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugin etiquetas 1.2.0\n"
+"Report-Msgid-Bugs-To: https://github.com/carlosguilhermeklein/glpi-etiquetas/issues\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: hook.php
+msgid "Asset label 50x20 - 2 columns"
+msgstr ""
+
+#: hook.php front/print.php
+msgid "Print labels"
+msgstr ""
+
+#: setup.php src/LabelPrinter.php
+msgid "Asset labels"
+msgstr ""
+
+#: front/print.php
+msgid "No label selected for printing."
+msgstr ""
+
+#: front/print.php
+msgid "No label template defined."
+msgstr ""
+
+#: front/print.php
+msgid "Create a template"
+msgstr ""
+
+#: front/print.php
+msgid "Manage templates"
+msgstr ""
+
+#: front/print.php
+msgid "No asset selected. Open an asset list, select the assets to print and use %s."
+msgstr ""
+
+#: front/print.php
+msgid "Check the texts before generating. The number comes from the %s field of the asset."
+msgstr ""
+
+#: front/print.php src/Template.php
+msgid "Inventory number"
+msgstr ""
+
+#: front/print.php
+msgid "As this template uses the number, assets without one stay blocked until it is filled in."
+msgstr ""
+
+#: front/print.php
+msgid "Print"
+msgstr ""
+
+#: front/print.php
+msgid "Asset"
+msgstr ""
+
+#: front/print.php
+msgid "Number"
+msgstr ""
+
+#: front/print.php
+msgid "no number"
+msgstr ""
+
+#: front/print.php
+msgid "%1$d label(s) = %2$d page(s) (rows of the roll)."
+msgstr ""
+
+#: front/print.php
+msgid "To print: in the PDF press Ctrl+P, choose the label printer, set the scale to actual size (100%) and the margins to none."
+msgstr ""
+
+#: front/print.php
+msgid "Generate PDF"
+msgstr ""
+
+#: front/template.form.php
+msgid "Template not found."
+msgstr ""
+
+#: front/template.form.php
+msgid "%s (copy)"
+msgstr ""
+
+#: front/template.form.php
+msgid "Template: %s"
+msgstr ""
+
+#: front/template.form.php
+msgid "New label template"
+msgstr ""
+
+#: front/template.form.php
+msgid "All templates"
+msgstr ""
+
+#: front/template.php
+msgid "New template"
+msgstr ""
+
+#: front/template.php
+msgid "A template defines the label size, how many labels fit in a row of the roll, the code, the logo and the text lines. When printing, the review page lets you choose the template."
+msgstr ""
+
+#: front/template.php src/Template.php
+msgid "Name"
+msgstr ""
+
+#: front/template.php
+msgid "Label"
+msgstr ""
+
+#: front/template.php src/Template.php
+msgid "Code"
+msgstr ""
+
+#: front/template.php src/Template.php
+msgid "Logo"
+msgstr ""
+
+#: front/template.php src/Template.php
+msgid "Text lines"
+msgstr ""
+
+#: front/template.php
+msgid "Default"
+msgstr ""
+
+#: src/LabelPrinter.php
+msgid "The selected assets will go to the label review page."
+msgstr ""
+
+#: src/LabelPrinter.php
+msgid "Continue"
+msgstr ""
+
+#: src/Template.php
+msgid "Fixed text"
+msgstr ""
+
+#: src/Template.php
+msgid "Description (type + manufacturer + model)"
+msgstr ""
+
+#: src/Template.php
+msgid "User (or location)"
+msgstr ""
+
+#: src/Template.php
+msgid "Type"
+msgstr ""
+
+#: src/Template.php
+msgid "Manufacturer"
+msgstr ""
+
+#: src/Template.php
+msgid "Model"
+msgstr ""
+
+#: src/Template.php
+msgid "Serial number"
+msgstr ""
+
+#: src/Template.php
+msgid "Location"
+msgstr ""
+
+#: src/Template.php
+msgid "Group"
+msgstr ""
+
+#: src/Template.php
+msgid "Entity"
+msgstr ""
+
+#: src/Template.php
+msgid "Purchase date"
+msgstr ""
+
+#: src/Template.php
+msgid "GLPI ID"
+msgstr ""
+
+#: src/Template.php
+msgid "QR code"
+msgstr ""
+
+#: src/Template.php
+msgid "Barcode (Code 128, at the bottom)"
+msgstr ""
+
+#: src/Template.php
+msgid "None"
+msgstr ""
+
+#: src/Template.php
+msgid "Link to the asset in GLPI"
+msgstr ""
+
+#: src/Template.php
+msgid "No logo"
+msgstr ""
+
+#: src/Template.php
+msgid "Left"
+msgstr ""
+
+#: src/Template.php
+msgid "Right"
+msgstr ""
+
+#: src/Template.php
+msgid "Spread over the height"
+msgstr ""
+
+#: src/Template.php
+msgid "Top"
+msgstr ""
+
+#: src/Template.php
+msgid "Center"
+msgstr ""
+
+#: src/Template.php
+msgid "203 dpi (8 dots/mm)"
+msgstr ""
+
+#: src/Template.php
+msgid "300 dpi (12 dots/mm)"
+msgstr ""
+
+#: src/Template.php
+msgid "600 dpi (24 dots/mm)"
+msgstr ""
+
+#: src/Template.php
+msgid "Give the template a name."
+msgstr ""
+
+#: src/Template.php
+msgid "This is the default template. Set another template as default before deleting this one."
+msgstr ""
+
+#: src/Template.php
+msgid "%1$s x %2$s mm, %3$d per row, page of %4$s mm"
+msgstr ""
+
+#: src/Template.php
+msgid "The logo must be a PNG, JPG, GIF or BMP image."
+msgstr ""
+
+#: src/Template.php
+msgid "Could not save the logo."
+msgstr ""
+
+#: src/Template.php
+msgid "Identification"
+msgstr ""
+
+#: src/Template.php
+msgid "Template name"
+msgstr ""
+
+#: src/Template.php
+msgid "Default template"
+msgstr ""
+
+#: src/Template.php
+msgid "Use as default template"
+msgstr ""
+
+#: src/Template.php
+msgid "Size and position on the roll (mm)"
+msgstr ""
+
+#: src/Template.php
+msgid "Label width"
+msgstr ""
+
+#: src/Template.php
+msgid "Label height"
+msgstr ""
+
+#: src/Template.php
+msgid "Labels per row (columns)"
+msgstr ""
+
+#: src/Template.php
+msgid "Gap between columns"
+msgstr ""
+
+#: src/Template.php
+msgid "Left margin to the first label"
+msgstr ""
+
+#: src/Template.php
+msgid "Page width"
+msgstr ""
+
+#: src/Template.php
+msgid "0 = automatic (%s mm)"
+msgstr ""
+
+#: src/Template.php
+msgid "Vertical offset"
+msgstr ""
+
+#: src/Template.php
+msgid "Positive moves the content down"
+msgstr ""
+
+#: src/Template.php
+msgid "Inner margin of the label"
+msgstr ""
+
+#: src/Template.php
+msgid "Printer resolution"
+msgstr ""
+
+#: src/Template.php
+msgid "Content"
+msgstr ""
+
+#: src/Template.php
+msgid "QR code side"
+msgstr ""
+
+#: src/Template.php
+msgid "Size"
+msgstr ""
+
+#: src/Template.php
+msgid "QR code side length or barcode height"
+msgstr ""
+
+#: src/Template.php
+msgid "Position"
+msgstr ""
+
+#: src/Template.php
+msgid "Maximum size"
+msgstr ""
+
+#: src/Template.php
+msgid "Black threshold (1-254)"
+msgstr ""
+
+#: src/Template.php
+msgid "Higher = more areas become black"
+msgstr ""
+
+#: src/Template.php
+msgid "Upload image (PNG, JPG, GIF, BMP)"
+msgstr ""
+
+#: src/Template.php
+msgid "How the logo will be printed (zoomed 3x):"
+msgstr ""
+
+#: src/Template.php
+msgid "Remove logo"
+msgstr ""
+
+#: src/Template.php
+msgid "Vertical alignment"
+msgstr ""
+
+#: src/Template.php
+msgid "Horizontal alignment"
+msgstr ""
+
+#: src/Template.php
+msgid "Field"
+msgstr ""
+
+#: src/Template.php
+msgid "Text (fixed text only)"
+msgstr ""
+
+#: src/Template.php
+msgid "Font (pt)"
+msgstr ""
+
+#: src/Template.php
+msgid "Bold"
+msgstr ""
+
+#: src/Template.php
+msgid "Uppercase"
+msgstr ""
+
+#: src/Template.php
+msgid "Lines"
+msgstr ""
+
+#: src/Template.php
+msgid "Add line"
+msgstr ""
+
+#: src/Template.php
+msgid "Lines wider than the label are compressed; if the lines do not fit in the height, all fonts shrink in the same proportion."
+msgstr ""
+
+#: src/Template.php
+msgid "Add"
+msgstr ""
+
+#: src/Template.php
+msgid "Delete this template?"
+msgstr ""
+
+#: src/Template.php
+msgid "Save"
+msgstr ""
+
+#: src/Template.php
+msgid "Preview PDF"
+msgstr ""
+
+#: src/Template.php
+msgid "Calibration PDF"
+msgstr ""
+
+#: src/Template.php
+msgid "Duplicate"
+msgstr ""
+
+#: src/Template.php
+msgid "Delete"
+msgstr ""
+
+#: src/Template.php
+msgid "The PDFs use the saved values: save before previewing."
+msgstr ""
+
+#: src/Template.php
+msgid "No"
+msgstr ""
+
+#: src/Template.php
+msgid "Yes"
+msgstr ""
+
+#: src/Template.php
+msgid "Move up"
+msgstr ""
+
+#: src/Template.php
+msgid "Move down"
+msgstr ""
+
+#: src/Template.php
+msgid "Remove"
+msgstr ""
+
+#: src/Template.php
+msgid "Label template"
+msgid_plural "Label templates"
+msgstr[0] ""
+msgstr[1] ""
